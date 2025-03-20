@@ -1,8 +1,15 @@
 {
   "name": "typescript",
   "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src"
+  },
   "devDependencies": {
+    "@types/body-parser": "^1.19.5",
     "@types/chance": "^1.1.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
     "@types/mkdirp": "^2.0.0",
     "@types/mongodb": "^4.0.6",
     "@types/node": "^22.13.10",
@@ -11,7 +18,10 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "body-parser": "^1.20.3",
     "chance": "^1.1.12",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
     "mkdirp": "^3.0.1",
     "mongodb": "^6.15.0",
     "rimraf": "^6.0.1"
