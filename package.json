@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/chance": "^1.1.6",
+    "@types/mkdirp": "^2.0.0",
+    "@types/node": "^22.13.10",
+    "@types/rimraf": "^4.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "chance": "^1.1.12",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^6.0.1"
+  }
+}
